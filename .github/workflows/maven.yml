@@ -1,0 +1,27 @@
+name: maven.yml
+on:
+  push:
+    branches: [ "MainFinished" ]
+  pull_request:
+    branches: [ "MainFinished" ]
+
+jobs:
+  build:
+    name: Java Testing
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up JDK 21
+        uses: actions/setup-java@v4
+        with:
+          Java-version: '21'
+          distribution: 'temurin'
+          cache: maven
+
+      - name: Install dependencies
+        run: mvn clean install
+
+      - name: Run tests
+        run: mvn test
