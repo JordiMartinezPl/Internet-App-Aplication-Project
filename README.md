@@ -4,6 +4,7 @@ This project was developed as a group project at Pompeu Fabra University. It imp
 
 ## Contributors
 
+- [@JordiMartinezPl](https://github.com/JordiMartinezPl) 
 - [@dvpotato](https://github.com/dvpotato) 
 - [@FerranMartinez27](https://github.com/FerranMartinez27) 
 
