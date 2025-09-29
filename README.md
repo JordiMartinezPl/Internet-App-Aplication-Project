@@ -2,6 +2,11 @@
 
 This project was developed as a group project at Pompeu Fabra University. It implements a sticker collection application using Spring Boot and is based on Component-Based Architecture. Below, we explain the key features, challenges, and solutions implemented during development, along with additional noteworthy aspects of the project.
 
+## Contributors
+
+- [@dvpotato](https://github.com/dvpotato) 
+- [@FerranMartinez27](https://github.com/FerranMartinez27) 
+
 ## **Key Features and Functionality**
 
 ### 1. **Custom Functionality in H2**
